@@ -14,8 +14,17 @@ public class EvaluationService {
 	 * @return
 	 */
 	public String reverse(String string) {
+		String s= string;
+		String temp = "";
+		int length = s.length();
 		
-		return "";
+		for(int i = length -1; i>=0; i--) {
+			
+			temp = temp + s.charAt(i);
+			
+		}
+		System.out.println(temp); 
+		return temp;
 	}
 
 	/**
@@ -28,6 +37,7 @@ public class EvaluationService {
 	 */
 	public String acronym(String phrase) {
 		// TODO Write an implementation for this method declaration
+		
 		return null;
 	}
 
